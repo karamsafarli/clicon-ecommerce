@@ -1,0 +1,218 @@
+footer {
+    padding: 72px 0;
+    background: #191C1F;
+
+    .container {
+        padding: 0 30px;
+
+        .footer_wrapper {
+            display: flex;
+            gap: 24px;
+            flex-wrap: wrap;
+
+            .logo_section {
+                max-width: 312px;
+                min-width: 248px;
+
+                .logo {
+                    width: 177px;
+                    margin-bottom: 24px;
+
+                    img {
+                        width: 100%;
+                    }
+                }
+
+                .footer_text_sm {
+                    color: #77878F;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 20px;
+                }
+
+                h3 {
+                    color: #FFF;
+
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 24px;
+                }
+
+                .address_text {
+                    color: #ADB7BC;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 24px;
+                    margin: 12px 0;
+                }
+
+                .email {
+                    color: #FFF;
+
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 24px;
+                }
+            }
+
+            .footer_links {
+                max-width: 200px;
+                min-width: 155px;
+
+                h3 {
+                    color: #FFF;
+                    margin-bottom: 12px;
+
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 24px;
+                    text-transform: uppercase;
+                }
+
+                ul {
+                    list-style: none;
+                    padding: 0;
+                    margin: 0;
+
+                    li {
+                        padding: 6px 0;
+                        margin: 0;
+
+                        a {
+                            text-decoration: none;
+                            color: #929FA5;
+                            font-size: 14px;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: 20px;
+                        }
+
+                        .sub_divider {
+                            display: flex;
+                            align-items: center;
+                            gap: 8px;
+
+                            color: #FFF;
+
+                            font-size: 14px;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: 20px;
+
+                            .divider {
+                                width: 24px;
+                                height: 2px;
+                                background: #EBC80C;
+                            }
+                        }
+
+                        .all_products {
+                            a {
+                                display: flex;
+                                gap: 8px;
+                                align-items: center;
+                                text-decoration: none;
+                                color: #EBC80C;
+                                font-size: 14px;
+                                font-style: normal;
+                                font-weight: 500;
+                                line-height: 20px;
+                            }
+                        }
+                    }
+                }
+
+
+            }
+
+            .download {
+                max-width: 200px;
+                min-width: 180px;
+                h3 {
+                    color: #FFF;
+                    margin-bottom: 12px;
+
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 24px;
+                    text-transform: uppercase;
+                }
+
+                a {
+                    padding: 16px 20px;
+                    border-radius: 3px;
+                    background: #303639;
+                    display: flex;
+                    gap: 16px;
+                    text-decoration: none;
+                    align-items: center;
+                    margin-bottom: 12px;
+
+                    .download_info {
+                        h6 {
+                            color: #FFF;
+                            font-family: Poppins;
+                            font-size: 11px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 13px;
+                            margin-bottom: 4px;
+                        }
+
+                        p {
+                            color: #FFF;
+                            font-family: Poppins;
+                            font-size: 14px;
+                            font-style: normal;
+                            font-weight: 600;
+                            line-height: 20px;
+                            margin: 0;
+                        }
+                    }
+                }
+            }
+
+            .footer_tags {
+                h3 {
+                    color: #FFF;
+                    margin-bottom: 12px;
+
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 24px;
+                    text-transform: uppercase;
+                }
+
+
+                .tag_wrapper {
+                    display: flex;
+                    gap: 8px;
+                    align-items: center;
+                    flex-wrap: wrap;
+                    // max-width: 312px;
+                    min-width: 312px;
+                    span {
+                        padding: 6px 12px;
+                        border-radius: 2px;
+                        border: 1px solid #303639;
+                        color: var(--Gray-00, #FFF);
+
+                        font-family: Public Sans;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 20px;
+                    }
+                }
+            }
+        }
+
+    }
+}

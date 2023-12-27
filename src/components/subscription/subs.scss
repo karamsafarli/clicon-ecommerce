@@ -1,0 +1,84 @@
+.subs_component {
+    background-color: #1B6392;
+    padding: 72px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .container {
+        max-width: 624px;
+
+        h2 {
+            color: #fff;
+            text-align: center;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 40px;
+            margin-bottom: 12px;
+        }
+
+        p {
+            color: #FFF;
+            text-align: center;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px;
+            opacity: .7;
+            margin: 0;
+        }
+
+        form {
+            width: 100%;
+            display: flex;
+            background-color: #FFF;
+            align-items: center;
+            padding: 12px 16px;
+            gap: 16px;
+            margin: 32px 0;
+            box-shadow: 0px 12px 24px 0px rgba(0, 0, 0, 0.12);
+
+            input {
+                width: 70%;
+                padding: 12px 16px;
+                outline: none;
+                border: none;
+            }
+
+            button {
+                display: flex;
+                padding: 0px 24px;
+                justify-content: center;
+                align-items: center;
+                gap: 8px;
+                border: none;
+                color: #FFF;
+                background-color: #FA8232;
+                cursor: pointer;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 48px;
+                letter-spacing: 0.168px;
+                text-transform: uppercase;
+            }
+        }
+
+        .spacer {
+            opacity: 0.12;
+            background: #FFF;
+            width: 80%;
+            height: 1px;
+            margin: 0 auto;
+        }
+
+        .sponsors {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+
+    }
+}
